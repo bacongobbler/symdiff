@@ -2,6 +2,8 @@
 
 symdiff is a convenient library to help find the symmetrical difference between two similar types.
 
+In a nutshell, it finds all properties in `dst` that don't exist in `src`.
+
 ## Usage
 
 ```go
