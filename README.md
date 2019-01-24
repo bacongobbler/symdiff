@@ -32,6 +32,6 @@ func main() {
 	if err := symdiff.Diff(&a, b); err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(a)
+	fmt.Println(a) // Output: {hello 0}
 }
 ```
